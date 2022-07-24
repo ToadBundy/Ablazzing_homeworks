@@ -118,11 +118,6 @@ public class homework2 {
 
      }
 
-    public static void advance_task4(){
-
-    }
-
-
 
 
      public static int BooleanToInt(boolean value){
