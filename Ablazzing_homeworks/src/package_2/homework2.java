@@ -19,11 +19,16 @@ public class homework2 {
         Worker Ilya = new Worker();
         Worker Fedr = new Worker();
 
-        Fedr.spoilSomeVodka(store, 1001);
+        Fedr.spoilSomeVodka(store, 10);
         Fedr.getSpoiledVodka();
+        System.out.println("############");
+        Ilya.spoilSomeVodka(store, 190);
+        Ilya.getSpoiledVodka();
+        System.out.println("############");
+        Ivan.spoilSomeVodka(store, 300);
+        Ivan.getSpoiledVodka();
+        System.out.println("############");
         store.getVodka();
-
-
     }
 
     //Задача 1
